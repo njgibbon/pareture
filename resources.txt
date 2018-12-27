@@ -1,1 +1,25 @@
+A list of the most significant material used on the site or in the creation of the site. 
+
+How to Make an AWS S3 Static Website With SSL: 
+https://www.josephecombs.com/2018/03/05/how-to-make-an-AWS-S3-static-website-with-ssl
+
+Hosting a HTTPS website using AWS S3 and CloudFront:
+https://medium.com/@itsmattburgess/hosting-a-https-website-using-aws-s3-and-cloudfront-ee6521df03b9
+
+Migrate DNS:
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/migrate-dns-domain-inactive.html
+
+Northern Lights Background Image: 
 https://unsplash.com/photos/62V7ntlKgL8
+
+CORS issues:
+https://stackoverflow.com/questions/50022326/amazon-s3-image-cors-issue
+https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html
+
+https://stackoverflow.com/questions/18692371/align-logo-at-center-of-header
+
+https://www.sitepoint.com/community/t/css-text-indent-all-lines/1707
+
+https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
+
+https://stackoverflow.com/questions/12196885/text-flowing-out-of-div

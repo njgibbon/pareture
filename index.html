@@ -1,30 +1,72 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Pareture</title>
- 
-<style>
-html {
-    height: 100%;
-}
-
-body {
-    /* The image used */
-    background-image: url("background.jpg");
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
- 
-</style>
- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <title>Pareture</title>
+    <link rel = "stylesheet" type = "text/css" href = "css/pareture.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type='text/javascript' src="js/pareture.js"></script>
 </head>
  
-<body>
- 
+<body onLoad='startMain();'>
+
+
+<header class="header">
+<div class="logo">
+<picture>
+    <img src="images/paretureLogo.png" alt="Pareture">
+</picture>
+</div>
+</header>
+
+
+    <div class="middle">
+	    <main class="main">
+                <div class ="indent0">
+                <strong>{</strong>
+                </div>
+                <div class ="indent1">
+                <strong>Site: </strong> <a href="https://www.pareture.xyz">"https://www.pareture.xyz"</a>,
+				<br>
+                <strong>Blog: </strong> <a href="https://www.medium.com/pareture">"https://www.medium.com/pareture"</a>,
+				<br>
+                <strong>LinkedIn: </strong> <a href="https://www.linkedin.com/in/nick-gibbon-b87121172">"https://www.linkedin.com/in/nick-gibbon-b87121172"</a>,
+				<br>	
+				<strong>GitHub: </strong> <a href="https://www.github.com/njgibbon">"https://www.github.com/njgibbon"</a>,
+				<br>	
+                <strong>Archive: </strong> <a href="https://www.reddit.com/r/pareture">"https://www.reddit.com/r/pareture"</a>,
+				<br>		
+				<strong>Twitter: </strong> <a href="https://www.twitter.com/pareture1">"https://www.twitter.com/pareture1"</a>,
+				<br>	
+				<strong>Facebook: </strong><a href="https://www.facebook.com/pareture1">"https://www.facebook.com/pareture1"</a>
+                </div>
+                <div class ="indent0">
+                <strong>}</strong>
+                </div>
+                <div id="placeToAppend"></div>
+		</main>
+	</div>
+
+
+<footer class="footer">
+        <br>
+        <a href="resources.txt">RESOURCES</a><br>
+        <br>
+        <a href="sitemap.xml">SITEMAP</a><br>
+    <br>
+    <small>
+    Copyright © 
+    <script type="text/javascript" src="js/copyrightDate.js">
+
+    </script>
+     pareture.xyz
+     </small>
+    <br>
+    </br>
+</footer>
+
+
 </body>
+
 </html>

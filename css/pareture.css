@@ -1,0 +1,209 @@
+html 
+{
+    /*height: 100%;*/
+    background: url(../images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ 
+ body {
+     /* The image used */
+     /*
+     background-image: url("../images/background.jpg");
+ 
+     /* Full height */
+     /*height: 100%; */
+ 
+     /* Center and scale the image nicely */
+     /*
+     background-repeat: no-repeat;
+     background-size: cover;
+     /*min-height:100%;*/
+     /*
+     height: 100%;
+     /*width:100%;*/
+
+     
+ } 
+
+ * 
+ {
+     margin: 0;
+     padding: 0;
+ }
+
+.header 
+ {
+     
+     background: black;
+     position: relative;
+     width: 100%;
+     overflow: hidden;
+     margin: 0 auto;
+     text-align: center;
+     width: 100%;
+ }
+ 
+ .logo 
+ {
+     position: relative;
+     width: 100%; /*Because you only have 3 elements (100 divided by 3)*/
+     height: 120px;
+     float: left; /*To get them next to each other if all else fails*/
+     margin: 10px;
+     /*display: block;*/
+     /*margin: 0 auto;*/
+     text-align: center;
+ }
+
+ .logo img
+ {
+    width:120px;
+    border-radius: 8px;
+ }
+ 
+ .footer
+ {
+     background-color: #333;
+     font-family: "Times New Roman";
+     
+
+     
+     text-align: center;
+     color: white;
+     /*bottom:0;*/
+
+     /*
+     clear: both;
+     position: relative;
+     height: 100px;
+     margin-top: -100px;*/
+     box-shadow: 0 50vh 0 50vh #333;
+     
+ }
+ 
+ .middle
+ {
+     /*background-color: #e8e8e4;*/
+    /* margin: 0px;*/
+     padding: 10px;
+     height: 100%;
+ }
+ 
+ .main
+ {
+     max-width: 800px;
+     background-color:#f1e9d2;
+     margin: auto;
+     /*margin-top: 10px;
+     margin-bottom: 10px;*/
+     height: 100%;
+ }
+
+ .indent0 
+ {
+    font-size: 22x;
+    line-height: 1;
+    word-wrap: break-word;
+    font-family: "Courier New", Courier, monospace;
+ }
+ .indent1 
+ {
+    margin-left: 40px;
+    font-size: 22px;
+    line-height: 2.5;
+    word-wrap: break-word;
+    font-family: "Courier New", Courier, monospace;
+ }
+
+
+ .footer a 
+ {
+     margin: auto;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     
+ }
+
+ .footer a:hover 
+ {
+     text-decoration: underline;
+ }
+ 
+ .footer small
+ {
+     text-align: center;
+     color: white;
+     font-size: 12px;
+ }
+
+
+ @media (min-width: 800px) 
+ {
+
+    .logo
+    {
+        text-align: left;
+        height: 160px;
+    }
+
+    .logo img
+    {
+        width:160px;
+    }
+
+    .main
+    {
+        max-width: 800px;
+    }
+
+
+    .indent0 
+    {
+       font-size: 24px;
+       line-height: 1;
+    }
+    .indent1 
+    {
+       margin-left: 40px;
+       font-size: 24px;
+       line-height: 2.5;
+    }
+
+ }
+
+ @media (min-width: 1200px) 
+ {
+
+    .logo
+    {
+        text-align: left;
+        height: 160px;
+    }
+
+    .logo img
+    {
+        width:160px;
+    }
+
+     .main
+     {
+         max-width: 1000px;
+     }
+
+     .indent0 
+     {
+        font-size: 26px;
+        line-height: 1;
+     }
+     .indent1 
+     {
+        margin-left: 40px;
+        font-size: 26px;
+        line-height: 2.5;
+     }
+
+ }
