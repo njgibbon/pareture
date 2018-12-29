@@ -49,7 +49,7 @@ function customPageArrangement()
         pixelsGreaterThanTrigger = viewportHeight - 1024;
         console.log("pixels greater than trigger:");
         console.log(pixelsGreaterThanTrigger);
-        breakLineMultiplier = Math.round(pixelsGreaterThanTrigger/25) +1;
+        breakLineMultiplier = Math.round(pixelsGreaterThanTrigger/50) +1;
         console.log("breakline multiplier:");
         console.log(breakLineMultiplier);
 
@@ -57,7 +57,7 @@ function customPageArrangement()
         {
             htmlString=htmlString+"<br>";
             //added some additional trial and error addition of breaks to support phone screens which render pixels diffirently to how I understood so they have very long screens
-            if(i%3==0)
+            if(i%4==0)
             {
                 htmlString=htmlString+"<br>";
             }
