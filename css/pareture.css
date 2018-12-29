@@ -1,31 +1,16 @@
 html 
 {
-    /*height: 100%;*/
-    background: url(../images/background.jpg) no-repeat center center fixed; 
+    background-color: #f1e9d2;
+    background: url(../images/tinyBackground.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
  
- body {
-     /* The image used */
-     /*
-     background-image: url("../images/background.jpg");
- 
-     /* Full height */
-     /*height: 100%; */
- 
-     /* Center and scale the image nicely */
-     /*
-     background-repeat: no-repeat;
-     background-size: cover;
-     /*min-height:100%;*/
-     /*
-     height: 100%;
-     /*width:100%;*/
+ body 
+ {
 
-     
  } 
 
  * 
@@ -49,18 +34,16 @@ html
  .logo 
  {
      position: relative;
-     width: 100%; /*Because you only have 3 elements (100 divided by 3)*/
-     height: 120px;
-     float: left; /*To get them next to each other if all else fails*/
+     width: 100%;
+     height: 80px;
+     float: left; 
      margin: 10px;
-     /*display: block;*/
-     /*margin: 0 auto;*/
      text-align: center;
  }
 
  .logo img
  {
-    width:120px;
+    width:80px;
     border-radius: 8px;
  }
  
@@ -68,26 +51,17 @@ html
  {
      background-color: #333;
      font-family: "Times New Roman";
-     
+     font-size: 18px;
 
-     
      text-align: center;
      color: white;
-     /*bottom:0;*/
 
-     /*
-     clear: both;
-     position: relative;
-     height: 100px;
-     margin-top: -100px;*/
      box-shadow: 0 50vh 0 50vh #333;
      
  }
  
  .middle
  {
-     /*background-color: #e8e8e4;*/
-    /* margin: 0px;*/
      padding: 10px;
      height: 100%;
  }
@@ -102,22 +76,40 @@ html
      height: 100%;
  }
 
+/* unvisited link */
+ a:link {
+    color: #9370DB;;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+
  .indent0 
  {
-    font-size: 22x;
-    line-height: 1;
+    font-size: 26px;
+    line-height: 1.25;
     word-wrap: break-word;
     font-family: "Courier New", Courier, monospace;
  }
  .indent1 
  {
     margin-left: 40px;
-    font-size: 22px;
-    line-height: 2.5;
+    font-size: 26px;
+    line-height: 1.25;
     word-wrap: break-word;
     font-family: "Courier New", Courier, monospace;
  }
 
+ .indent2
+ {
+    margin-left: 80px;
+    font-size: 26px;
+    line-height: 1.25;
+    word-wrap: break-word;
+    font-family: "Courier New", Courier, monospace;
+ }
 
  .footer a 
  {
@@ -137,73 +129,74 @@ html
  {
      text-align: center;
      color: white;
-     font-size: 12px;
+     font-size: 14px;
  }
 
 
  @media (min-width: 800px) 
  {
-
     .logo
     {
-        text-align: left;
-        height: 160px;
+        text-align: center;
+        height: 120px;
     }
-
     .logo img
     {
-        width:160px;
+        width:120px;
     }
-
     .main
     {
         max-width: 800px;
     }
-
-
     .indent0 
     {
-       font-size: 24px;
-       line-height: 1;
+       font-size: 28px;
+       line-height: 1.25;
     }
     .indent1 
     {
        margin-left: 40px;
-       font-size: 24px;
-       line-height: 2.5;
+       font-size: 28px;
+       line-height: 1.25;
     }
-
+    .indent2
+    {
+       margin-left: 80px;
+       font-size: 28px;
+       line-height: 1.25;
+    }
  }
 
  @media (min-width: 1200px) 
  {
-
     .logo
     {
         text-align: left;
-        height: 160px;
+        height: 120px;
     }
-
     .logo img
     {
-        width:160px;
+        width:120px;
     }
-
      .main
      {
          max-width: 1000px;
      }
-
      .indent0 
      {
-        font-size: 26px;
-        line-height: 1;
+        font-size: 30px;
+        line-height: 1.25;
      }
      .indent1 
      {
         margin-left: 40px;
-        font-size: 26px;
-        line-height: 2.5;
+        font-size: 30px;
+        line-height: 1.25;
      }
-
+     .indent2
+     {
+        margin-left: 80px;
+        font-size: 30px;
+        line-height: 1.25;
+     }
  }

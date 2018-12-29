@@ -2,30 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
     <url>
         <loc>https://pareture.xyz/</loc>
-        <lastmod>2018-12-17</lastmod>
+        <lastmod>2019-01-01</lastmod>
     </url>
     <url>
         <loc>https://pareture.xyz/index.html</loc>
-        <lastmod>2018-12-17</lastmod>
+        <lastmod>2019-01-01</lastmod>
     </url>
     <url>
         <loc>https://pareture.xyz/sitemap.xml</loc>
-        <lastmod>2018-12-17</lastmod>
+        <lastmod>2019-01-01</lastmod>
     </url>
     <url>
         <loc>https://pareture.xyz/robots.txt</loc>
-        <lastmod>2018-12-17</lastmod>
+        <lastmod>2019-01-01</lastmod>
     </url>
     <url>
         <loc>https://pareture.xyz/humans.txt</loc>
-        <lastmod>2018-12-17</lastmod>
+        <lastmod>2019-01-01</lastmod>
     </url>
     <url>
         <loc>https://pareture.xyz/resources.txt</loc>
-        <lastmod>2018-12-17</lastmod>
+        <lastmod>2019-01-01</lastmod>
     </url>
     <url>
         <loc>https://pareture.xyz/json/pareture.json</loc>
-        <lastmod>2018-12-17</lastmod>
+        <lastmod>2019-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.pareture.xyz/</loc>
+        <lastmod>2019-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.pareture.xyz/index.html</loc>
+        <lastmod>2019-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.pareture.xyz/sitemap.xml</loc>
+        <lastmod>2019-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.pareture.xyz/robots.txt</loc>
+        <lastmod>2019-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.pareture.xyz/humans.txt</loc>
+        <lastmod>2019-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.pareture.xyz/resources.txt</loc>
+        <lastmod>2019-01-01</lastmod>
+    </url>
+    <url>
+        <loc>https://www.pareture.xyz/json/pareture.json</loc>
+        <lastmod>2019-01-01</lastmod>
     </url>
 </urlset>

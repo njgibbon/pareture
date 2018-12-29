@@ -1,9 +1,21 @@
 {
-    "Site" : "https://pareture.xyz",
-    "Blog" : "https://medium.com/pareture",
-    "Archive" : "https://www.reddit.com/r/pareture",
-    "LinkedIn" : "https://www.linkedin.com/in/nick-gibbon-b87121172",
-    "GitHub" : "https://github.com/njgibbon",   
-    "Twitter" : "https://www.twitter.com/pareture1",
-    "Facebook" : "https://www.facebook.com/pareture1"
+    "Site" : "https://www.pareture.xyz",
+    "Writing" : 
+    {
+        "Blog" : "https://www.medium.com/pareture",
+        "Archive" : "https://www.reddit.com/r/pareture"
+    },
+    "Code" :
+    {
+        "GitHub" : "https://www.github.com/njgibbon"
+    }, 
+    "CV" :
+    {
+        "LinkedIn" : "https://www.linkedin.com/in/nick-gibbon-b87121172"
+    },
+    "Social" :
+    {
+        "Twitter" : "https://www.twitter.com/pareture1",
+        "Facebook" : "https://www.facebook.com/pareture1"
+    }
 }

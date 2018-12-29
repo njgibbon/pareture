@@ -1,72 +1,101 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
-    <title>Pareture</title>
-    <link rel = "stylesheet" type = "text/css" href = "css/pareture.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type='text/javascript' src="js/pareture.js"></script>
-</head>
+    <head>
+            <link rel = "stylesheet" type = "text/css" href = "css/pareture.css" />
+        <title>Pareture</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type='text/javascript' src="js/pareture.js"></script>
+    </head>
  
-<body onLoad='startMain();'>
+    <body onLoad='startMain();'>
+
+        <header class="header">
+            <div class="logo">
+                <picture>
+                    <img src="images/paretureLogo.png" alt="Pareture">
+                </picture>
+            </div>
+        </header>
 
 
-<header class="header">
-<div class="logo">
-<picture>
-    <img src="images/paretureLogo.png" alt="Pareture">
-</picture>
-</div>
-</header>
+        <div class="middle">
+	        <main class="main">
 
-
-    <div class="middle">
-	    <main class="main">
                 <div class ="indent0">
-                <strong>{</strong>
+                    <strong>{</strong>
                 </div>
+
                 <div class ="indent1">
-                <strong>Site: </strong> <a href="https://www.pareture.xyz">"https://www.pareture.xyz"</a>,
-				<br>
-                <strong>Blog: </strong> <a href="https://www.medium.com/pareture">"https://www.medium.com/pareture"</a>,
-				<br>
-                <strong>LinkedIn: </strong> <a href="https://www.linkedin.com/in/nick-gibbon-b87121172">"https://www.linkedin.com/in/nick-gibbon-b87121172"</a>,
-				<br>	
-				<strong>GitHub: </strong> <a href="https://www.github.com/njgibbon">"https://www.github.com/njgibbon"</a>,
-				<br>	
-                <strong>Archive: </strong> <a href="https://www.reddit.com/r/pareture">"https://www.reddit.com/r/pareture"</a>,
-				<br>		
-				<strong>Twitter: </strong> <a href="https://www.twitter.com/pareture1">"https://www.twitter.com/pareture1"</a>,
-				<br>	
-				<strong>Facebook: </strong><a href="https://www.facebook.com/pareture1">"https://www.facebook.com/pareture1"</a>
+                    <strong>"Site" : </strong> <a href="https://www.pareture.xyz">"https://www.pareture.xyz"</a>,<br>
+                    <strong>"Writing" :</strong><br>
+                    <strong>{</strong>
                 </div>
+
+                <div class ="indent2">
+                    <strong>"Blog" : </strong> <a href="https://www.medium.com/pareture">"https://www.medium.com/pareture"</a>,<br>
+                    <strong>"Archive" : </strong> <a href="https://www.reddit.com/r/pareture">"https://www.reddit.com/r/pareture"</a>
+                </div>
+
+                <div class ="indent1">
+                    <strong>},</strong><br>
+                    <strong>"Code" :</strong><br>
+                    <strong>{</strong>
+                </div>
+
+                <div class ="indent2">
+                    <strong>"GitHub" : </strong> <a href="https://www.github.com/njgibbon">"https://www.github.com/njgibbon"</a>,
+                </div>
+
+                <div class ="indent1">
+                    <strong>},</strong><br>
+                    <strong>"CV" :</strong><br>
+                    <strong>{</strong>
+                </div>
+
+                <div class ="indent2">
+                    <strong>"LinkedIn" : </strong> <a href="https://www.linkedin.com/in/nick-gibbon-b87121172">"https://www.linkedin.com/in/nick-gibbon-b87121172"</a>
+                </div>
+
+                <div class ="indent1">
+                    <strong>},</strong><br>
+                    <strong>"Social" :</strong><br>
+                    <strong>{</strong>
+                </div>
+
+                <div class ="indent2">
+                    <strong>"Twitter" : </strong> <a href="https://www.twitter.com/pareture1">"https://www.twitter.com/pareture1"</a>,<br>
+                    <strong>"Facebook" : </strong><a href="https://www.facebook.com/pareture1">"https://www.facebook.com/pareture1"</a>
+                </div>
+
+                <div class ="indent1">
+                    <strong>}</strong>
+                </div>
+
                 <div class ="indent0">
-                <strong>}</strong>
+                    <strong>}</strong>
                 </div>
+
                 <div id="placeToAppend"></div>
-		</main>
-	</div>
+		    </main>
+	    </div>
 
 
-<footer class="footer">
-        <br>
-        <a href="resources.txt">RESOURCES</a><br>
-        <br>
-        <a href="sitemap.xml">SITEMAP</a><br>
-    <br>
-    <small>
-    Copyright © 
-    <script type="text/javascript" src="js/copyrightDate.js">
+        <footer class="footer">
+            <br>
+            <a href="resources.txt">RESOURCES</a>
+            <br><br>
+            <a href="sitemap.xml">SITEMAP</a>
+            <br><br>
+            <small>
+                Copyright
+                <script type="text/javascript" src="js/copyrightDate.js"></script>
+                pareture.xyz
+            </small>
+            <br><br>
+        </footer>
 
-    </script>
-     pareture.xyz
-     </small>
-    <br>
-    </br>
-</footer>
-
-
-</body>
+    </body>
 
 </html>
