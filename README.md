@@ -1,2 +1,2 @@
-# pareture
-https://pareture.xyz source
+# pareture.xyz
+https://pareture.xyz source.

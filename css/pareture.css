@@ -1,140 +1,162 @@
 html 
 {
-    background-color: #f1e9d2;
-    background: url(../images/tinyBackground.png) no-repeat center center fixed; 
+    background-color:  rgb(211, 211, 211);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: "Helvetica";
 }
- 
- body 
- {
 
- } 
+* 
+{
+    margin: 0;
+    padding: 0;
+}
 
- * 
- {
-     margin: 0;
-     padding: 0;
- }
+h1
+{
+    font-size: 26px;
+}
 
 .header 
- {
+{
      
-     background: black;
-     position: relative;
-     width: 100%;
-     overflow: hidden;
-     margin: 0 auto;
-     text-align: center;
-     width: 100%;
- }
- 
- .logo 
- {
-     position: relative;
-     width: 100%;
-     height: 80px;
-     float: left; 
-     margin: 10px;
-     text-align: center;
- }
+    background: rgb(51, 51, 51);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
 
- .logo img
- {
+.logo 
+{
+    text-align: center;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.logo img
+{
     width:80px;
     border-radius: 8px;
- }
- 
- .footer
- {
-     background-color: #333;
-     font-family: "Times New Roman";
-     font-size: 18px;
+}
 
-     text-align: center;
-     color: white;
+.nav 
+{
+    max-width: 800px;
+    background-color:#ffffff;
+    margin: auto;
+    height: 100%;
+    font-size: 16px;
+}
 
-     box-shadow: 0 50vh 0 50vh #333;
-     
- }
+.nav ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
  
- .middle
- {
-     padding: 10px;
-     height: 100%;
- }
+.nav li 
+{
+    float: left;
+}
  
- .main
- {
-     max-width: 800px;
-     background-color:#f1e9d2;
-     margin: auto;
-     /*margin-top: 10px;
-     margin-bottom: 10px;*/
-     height: 100%;
- }
+.nav li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover 
+{
+    background-color: #9370DB;
+}
+
+.nav .active 
+{
+    background-color: #4CAF50;
+}
+
+.footer
+{
+    background-color: #333;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 50vh 0 50vh #333;
+}
+
+.middle
+{
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+}
+
+.main
+{
+    max-width: 800px;
+    background-color:#ffffff;
+    margin: auto;
+    height: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.main li
+{
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.main li:not(:last-child) 
+{
+    margin-bottom: 5px;
+}
 
 /* unvisited link */
- a:link {
-    color: #9370DB;;
-  }
+a:link 
+{
+    color: #9370DB;
+}
   
-  /* visited link */
-  a:visited {
+/* visited link */
+a:visited 
+{
     color: green;
-  }
+}
 
- .indent0 
- {
-    font-size: 26px;
-    line-height: 1.25;
-    word-wrap: break-word;
-    font-family: "Courier New", Courier, monospace;
- }
- .indent1 
- {
-    margin-left: 40px;
-    font-size: 26px;
-    line-height: 1.25;
-    word-wrap: break-word;
-    font-family: "Courier New", Courier, monospace;
- }
 
- .indent2
- {
-    margin-left: 80px;
-    font-size: 26px;
-    line-height: 1.25;
-    word-wrap: break-word;
-    font-family: "Courier New", Courier, monospace;
- }
+.footer a 
+{
+    margin: auto;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
 
- .footer a 
- {
-     margin: auto;
-     color: white;
-     text-align: center;
-     text-decoration: none;
-     
- }
-
- .footer a:hover 
- {
-     text-decoration: underline;
- }
+.footer a:hover 
+{
+    text-decoration: underline;
+}
  
- .footer small
- {
-     text-align: center;
-     color: white;
-     font-size: 14px;
- }
+.footer small
+{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
 
-
- @media (min-width: 800px) 
- {
+@media (min-width: 800px) 
+{
     .logo
     {
         text-align: center;
@@ -148,27 +170,10 @@ html
     {
         max-width: 800px;
     }
-    .indent0 
-    {
-       font-size: 28px;
-       line-height: 1.25;
-    }
-    .indent1 
-    {
-       margin-left: 40px;
-       font-size: 28px;
-       line-height: 1.25;
-    }
-    .indent2
-    {
-       margin-left: 80px;
-       font-size: 28px;
-       line-height: 1.25;
-    }
- }
+}
 
- @media (min-width: 1200px) 
- {
+@media (min-width: 1200px) 
+{
     .logo
     {
         text-align: left;
@@ -178,25 +183,12 @@ html
     {
         width:120px;
     }
-     .main
-     {
-         max-width: 1000px;
-     }
-     .indent0 
-     {
-        font-size: 30px;
-        line-height: 1.25;
-     }
-     .indent1 
-     {
-        margin-left: 40px;
-        font-size: 30px;
-        line-height: 1.25;
-     }
-     .indent2
-     {
-        margin-left: 80px;
-        font-size: 30px;
-        line-height: 1.25;
-     }
- }
+    .main
+    {
+        max-width: 1000px;
+    }
+    .nav
+    {
+        max-width: 1000px;
+    }
+}
