@@ -1,10 +1,6 @@
 html 
 {
     background-color:  rgb(211, 211, 211);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     font-family: "Helvetica";
 }
 
@@ -19,14 +15,12 @@ h1
     font-size: 24px;
 }
 
+
 .header 
 {
      
     background: #24292e;
-    position: relative;
     width: 100%;
-    overflow: hidden;
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -42,6 +36,7 @@ h1
     width:80px;
     border-radius: 8px;
 }
+
 
 .nav 
 {
@@ -85,28 +80,16 @@ h1
     background-color: #4CAF50;
 }
 
-.footer
-{
-    background-color: #24292e;
-    font-size: 16px;
-    text-align: center;
-    color: white;
-}
-
-.middle
-{
-    padding: 10px;
-    height: 100%;
-    text-align: center;
-}
 
 .main
 {
     max-width: 800px;
     background-color:#ffffff;
     margin: auto;
-    height: 100%;
+    text-align: center;
     font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .main li
@@ -126,7 +109,15 @@ a:visited
 }
 
 
-.footer a 
+footer
+{
+    background-color: #24292e;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+footer a 
 {
     margin: auto;
     color: white;
@@ -134,17 +125,38 @@ a:visited
     text-decoration: none;
 }
 
-.footer a:hover 
+footer a:hover 
 {
     text-decoration: underline;
 }
+
+footer a:visited 
+{
+    color: white;
+}
  
-.footer small
+footer small
 {
     text-align: center;
     color: white;
     font-size: 12px;
 }
+
+footer small blue
+{
+    color: rgb(0, 183, 255);
+}
+
+footer small pink
+{
+    color: rgb(255, 0, 234);
+}
+
+footer small yellow
+{
+    color: yellow;
+}
+
 
 @media (min-width: 800px) 
 {
